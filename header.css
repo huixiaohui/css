@@ -1,0 +1,147 @@
+@charset "UTF-8";
+ *{
+        margin: 0;
+        padding: 0;
+    }  
+    
+     div{
+        margin: 0 auto;
+        width: 960px;
+/*        background-color:#EBFBFB;*/
+    }
+/*   以上为初始化*/
+    header a{
+        display: block;
+    }
+    header ul li>ul{
+        width:100px;/*设置二级菜单的长度*/
+    }
+/*    定位*/
+    header{
+        margin: 30px 0 ;
+        position: relative;
+    }
+    
+/*    菜单样式*/
+    header>nav{
+        text-align:center;
+    }
+    header>nav>ul{
+        display: inline-block;
+    }
+
+    header li{
+        list-style-type:none;
+    }
+    header li.li1 a{
+        background: rgb(221,139,48);
+    }
+    header li.li2 a{
+        background-color: rgb(120,183,232);
+    }
+    header li.li3 a{
+        background-color: rgb(218,229,75);
+    }
+    header li.li4 a{
+        background-color: rgb(207,78,149);
+    }
+    header li.li5 a{
+        background-color: rgb(221,139,48);
+    }
+    header li.li6 a{
+        background-color: rgb(120,183,232);
+    }
+    header li.li7 a{
+        background-color: rgb(218,229,75);
+    }
+    header li:last-child a{
+        border-bottom-right-radius: 10px;
+    }
+    header li:first-child a{
+        border-top-left-radius:10px;
+    }
+    header li li:first-child a{
+        border-top-left-radius: 0px;
+    }
+    header li li:last-child a{
+        border-bottom-left-radius: 5px;
+    }
+    header a{
+        text-decoration: none;
+        padding:2px 10px;
+        color: white; 
+        letter-spacing: 4px;
+    }
+    header li li a{
+        padding: 3px 0 3px 10px;
+        border-top:2px solid white;
+    }
+    
+
+/*菜单分栏定位*/
+    
+    header li{
+        float: left;
+    }
+    header li li{
+        float:none;
+        text-align: left;
+    }
+   
+/*    定位*/
+    header ul li{
+        position: relative;
+    }
+    header ul li ul{
+        position: absolute;
+        top:100%;
+        left:0;
+        display: none;
+    }
+    
+    
+/*    事件样式*/
+    header nav a:hover{
+        color:rgba(83,85,71,1.00);
+        border-color: #fff;
+        
+    }
+    header ul li:hover ul{
+        display: block;
+    }
+
+/*搜索框设置*/
+header form{
+        position: absolute;
+        right: 10px;
+        top:0px;
+    }
+    header form input{
+        width:75px;
+        height: 25px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-color:rgba(61,62,50,1.00);
+        border-width: 2px;
+    }
+    header form label{
+        display: none;
+    }
+    header form input:focus{
+        width: 140px;
+        height: 25px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-color:rgba(61,62,50,1.00);
+        border-width: 2px;
+    }
+/*    标题定位*/
+ header section{
+        position: absolute;
+        top:-37px;
+        left:-30px;
+    }
+    header section aside{
+        font-size: 12px;
+        font-family:""
+    }

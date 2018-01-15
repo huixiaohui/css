@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+ #daliuliu{
+        widows: 100px;
+        position:fixed;
+        right: 130px;
+        top:400px;
+        margin: 0;
+        padding: 0;
+    }
+    section#daliuliu p{
+        font-size: 12px;
+        padding-left: 6px;
+        padding-bottom: 1px;
+        line-height: 14px;
+        color: blue;
+    }
+    section#daliuliu img{
+        width: 80px;
+        margin-top: 4px;
+    }

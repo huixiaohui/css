@@ -1,0 +1,64 @@
+@charset "UTF-8";
+ section.img{
+        margin-top: 30px;
+        background-color:rgb(200,137,58);
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    section.img figure{
+        display: table-cell;
+        width: 240px;
+        text-align: center;
+        position: relative;
+       
+    }
+    section.img img{
+        width: 200px;
+        padding-bottom: 20px;
+    }
+    section.img h2{
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 15px;
+        color:white;
+    }
+/*    隐藏*/
+    
+    section.img figcaption {
+        position: absolute;
+        top:40%;
+        left:60%;
+        display: none;
+        width: 150px;
+        color:white;
+        background-color:rgb(140,182,230);
+        font-size: 16px;
+        text-align: left;
+        padding:5px 0px 5px 3px;
+        line-height: 24px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    section.img a{
+        text-decoration: none;
+        display: block;
+        text-align: right;
+        padding-right: 10px;
+        font-size: 14px;
+    }
+/*    绘制三角
+    section.img figcaption::after{
+        content: "";
+        position: absolute;
+        border:7px solid;
+        border-color:transparent rgb(140,182,230) transparent transparent;
+        top:61%;
+        left: -13px;
+    }
+鼠标事件*/
+    section.img figure:hover figcaption{
+        display: block;
+        z-index: 1;
+        cursor: pointer;
+    }
+   

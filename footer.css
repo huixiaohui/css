@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+footer{
+        background-color: rgba(220,220,90,1.00);
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    footer p{
+        font-size: 14px;
+        color: white;
+        line-height: 20px;
+    }
+    footer img{
+        width: 80px;
+        display: block;
+        position: relative;
+        left: 45.5%;
+}

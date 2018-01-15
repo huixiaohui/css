@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ section#row1{
+        clear: both;
+        margin-top:70px;
+    }
+    section li{
+        list-style-type: none;
+    }
+    section#row1>article.blog{
+        display: table-cell;
+        width: 640px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: #DAE54B;
+        color: white;
+    }
+    section#row1 article.blog div{
+        width: 640px;
+        
+    }
+    section#row1 article.blog p{
+        padding: 10px 20px 10px 20px;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2.5px;
+        text-align: justify;
+    }
+    section#row1 article.blog div>h2{
+/*        margin: 20px 20px 0px 20px;*/
+        padding: 10px 20px 0 20px;
+    }
+    section#row1 article.blog a{
+        text-decoration: none;
+        text-align: right;
+        display: block;
+        padding: 5px 20px 5px 0;
+        font-size: 20px;
+    }
+    section#row1>article.lognav{
+        display: table-cell;
+        width: 280px;
+        margin: 0;
+        padding: 0;
+    }
+    section#row1 article.lognav div{
+        width: 280px;
+        margin-left: 20px;
+    }
+    section#row1 article.lognav form{
+        background-color: #CF4E95;
+        color:white;
+        border-top-left-radius: 20px;
+    }
+    section#row1 article.lognav form legend{
+        font-size: 20px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    section#row1 article.lognav form fieldset{
+        border: none;
+    }
+    section#row1 article.lognav form input{
+        width: 120px;
+        height: 20px;
+        margin-left: 10px;
+    }
+    section#row1 article.lognav form section{
+       padding: 7px 40px;
+    }
+    section#row1 article.lognav form label{
+        letter-spacing: 3px;
+    }
+    section#row1 article.lognav form input[type="submit"]{
+        width: 45px;
+        letter-spacing: 3px;
+        margin-left: 80px;
+    }
+    form p{
+        font-size: 12px;
+        margin:20px 0 20px 50px; 
+    }
+    form a{
+        text-decoration: none;
+    }
+/*    事件*/
+    section#row1 article.blog a:hover{
+        color: white;
+        display:block;
+    }
+    form a:hover{
+        color: white;
+    }
+/*    form 中的导航菜单设置*/
+    section#row1 nav{
+        background-color:#77B7E8;
+        margin-top: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    section#row1 li{
+        list-style-type:none;
+        display: block;
+        padding: 0;
+        margin: 0; 
+    }
+    section#row1 li a{
+        display: block;
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 2px 0 2px 35px;
+        color: white;
+    }
+    section#row1 nav p{
+        color: #6E6A6A;
+        font-size: 18px;
+        padding-top:12px;
+        padding-left: 12px;
+        padding-bottom: 10px;
+        margin: 0;
+    }
+/*    添加事件*/
+    section#row1 li a:hover{
+        color:#77B7E8;
+        background: white;
+    }
